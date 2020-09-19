@@ -1,0 +1,222 @@
+/*CSS RESET*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*CSS MICRO CLEARFIX*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/*FONT*/
+@font-face
+{
+    font-family: font;
+    src: url(Montserrat-Regular.ttf);
+}
+
+body
+{
+    background-image: url(ep_naturalwhite.png);
+    background-attachment: fixed;
+    background-color: #F5EEE6;
+    font-family: "font";
+}
+
+/*HEADER*/
+.header
+{
+    text-align: center;
+}
+
+.header h1
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: #1C1D24;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.taskbar
+{
+    background-color:  #1C1D24;
+    padding: 15px;
+    line-height: 1cm;
+}
+
+.taskbar ul li
+{
+    display: inline-block;
+    margin: 5px auto;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.taskbar a
+{
+    color: #F5EEE6;
+    padding: 7px;
+    text-decoration: none;
+}
+
+.taskbar a:hover
+{
+    border: 2px dashed #F5EEE6;
+    border-radius: 10px;
+    color: #EA2340;
+    padding: 5px;
+}
+
+/*CONTENT*/
+.content
+{
+    margin: 20px auto;
+    padding: 30px;
+    line-height: 1cm;
+    font-weight: bold;
+}
+
+.content span
+{
+    font-style: italic;
+}
+
+.content img
+{
+    display: block;
+    margin: auto;
+    border: 9px inset #EA2340;
+}
+
+.content h2
+{
+    font-size: 40px;
+    font-weight: bold;
+    color: #1C1D24;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.content p
+{
+    font-size: 20px;
+}
+
+.isi
+{
+    margin: 0.5cm 2cm;
+    border: 3px dashed #EA2340;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.intro
+{
+    text-align: center;
+    border-top: 5px double #1C1D24;
+    border-bottom: 5px double #1C1D24;
+    padding: 20px ;
+    color: #EA2340;
+}
+
+.isi h3
+{
+    font-size: 25px;
+    color: #EA2340;
+}
+
+/*FOOTER*/
+.footer
+{
+    font-weight: bold;
+}
+
+.footer p
+{
+    font-size: 20px;
+    text-align: center;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.reference
+{
+    font-size: 25px;
+    background-color: #1C1D24;
+    color: #F5EEE6;
+    padding: 15px;
+}
+
+.reference ul li
+{
+    font-size: 18px;
+    text-align: justify;
+    line-height: 1cm;
+    margin-left: 7cm;
+}
+
+.reference a
+{
+    color: #F5EEE6;
+    text-decoration: none;
+}
+
+.reference a:hover
+{
+    color:#EA2340;
+    border: 2px dashed #F5EEE6;
+    border-radius: 10px;
+    padding: 7px;
+}
